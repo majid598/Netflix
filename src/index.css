@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg {
+  background: linear-gradient(to right, #44162a, #280e23, #280e23);
+}
+
+.cardbg {
+  background: linear-gradient(to top left, #20101d, #192044);
+}
+
+.premium-bg {
+  background: linear-gradient(to top left, #c0142f, #244c9c, #244c9c);
+}
+.standard-bg {
+  background: linear-gradient(to top left, #9c39d2, #234c9c, #234c9c);
+}
+.basic-bg {
+  background: linear-gradient(to top left, #673bdc, #3f3ea8, #244c9c);
+}
+.mobile-bg {
+  background: linear-gradient(to top left, #2569d6, #333f9a, #20509d);
+}
+
+.shadow-sm{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
